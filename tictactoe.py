@@ -33,7 +33,7 @@ def check_rows(board, player):
     for row in board:
         if row.count(player) == len(row):
             return True
-    return False
+        return False
 
 
 def check_columns(board, player):
