@@ -101,7 +101,7 @@ def switch_player(current_player: Player) -> Player:
     return X if current_player == O else O
 
 
-def play_game(board_size: int = None):
+def play(board_size: int = None):
     """
     Play a game of Tic-Tac-Toe.
 
@@ -120,4 +120,4 @@ def play_game(board_size: int = None):
 
 
 if __name__ == '__main__':
-    play_game()
+    play()
