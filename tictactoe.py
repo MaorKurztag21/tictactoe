@@ -41,9 +41,9 @@ def check_columns(board, player):
         marks = 0
         for j in range(len(row)):
             marks += board[j][i] == player
-        if marks == len(row):
-            return True
-    return False
+            if marks == len(row):
+                return True
+            return False
 
 
 def won(player: Player, board: Board) -> bool:
